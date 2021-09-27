@@ -1,0 +1,384 @@
+{
+    "webServiceUrl": "http://pulsar-broker-1.pulsar-broker.default.svc.cluster.local:8080",
+    "pulsarServiceUrl": "pulsar://pulsar-broker-1.pulsar-broker.default.svc.cluster.local:6650",
+    "persistentTopicsEnabled": true,
+    "nonPersistentTopicsEnabled": true,
+    "cpu": {
+        "usage": 71.5932405843236,
+        "limit": 300.0
+    },
+    "memory": {
+        "usage": 29555.408531188965,
+        "limit": 86016.0
+    },
+    "directMemory": {
+        "usage": 512.0,
+        "limit": 4096.0
+    },
+    "bandwidthIn": {
+        "usage": 4787.547941909302,
+        "limit": 1.024E7
+    },
+    "bandwidthOut": {
+        "usage": 35750.14869543841,
+        "limit": 1.024E7
+    },
+    "msgThroughputIn": 125523.31249254718,
+    "msgThroughputOut": 297074.4141624814,
+    "msgRateIn": 18.759349328423465,
+    "msgRateOut": 24.864758863037803,
+    "lastUpdate": 1632748402194,
+    "lastStats": {
+        "my_tenant/my_ns/0x54000000_0x58000000": {
+            "msgRateIn": 0.8499214585632846,
+            "msgThroughputIn": 8117.065420382324,
+            "msgRateOut": 2.549763303883956,
+            "msgThroughputOut": 8356.343137487756,
+            "consumerCount": 383,
+            "producerCount": 227,
+            "topics": 395,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x84000000_0x88000000": {
+            "msgRateIn": 0.5499486096878825,
+            "msgThroughputIn": 6931.9022538393365,
+            "msgRateOut": 0.5499486088599822,
+            "msgThroughputOut": 6931.902243033874,
+            "consumerCount": 384,
+            "producerCount": 224,
+            "topics": 391,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xcbffffff_0xcfffffff": {
+            "msgRateIn": 0.7999275012685666,
+            "msgThroughputIn": 6149.241888467495,
+            "msgRateOut": 0.8999184442497687,
+            "msgThroughputOut": 6162.940649399659,
+            "consumerCount": 414,
+            "producerCount": 233,
+            "topics": 427,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x34000000_0x38000000": {
+            "msgRateIn": 0.4666232135013628,
+            "msgThroughputIn": 6557.005786949903,
+            "msgRateOut": 0.4666232123368572,
+            "msgThroughputOut": 6557.005770358994,
+            "consumerCount": 392,
+            "producerCount": 225,
+            "topics": 405,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x0c000000_0x10000000": {
+            "msgRateIn": 0.6999367850012854,
+            "msgThroughputIn": 6652.182280118558,
+            "msgRateOut": 0.9499145313662462,
+            "msgThroughputOut": 6686.679210520737,
+            "consumerCount": 391,
+            "producerCount": 223,
+            "topics": 398,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x04000000_0x08000000": {
+            "msgRateIn": 0.833350197550976,
+            "msgThroughputIn": 8285.920295846701,
+            "msgRateOut": 1.466693426059173,
+            "msgThroughputOut": 179061.62386390418,
+            "consumerCount": 405,
+            "producerCount": 238,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x6c000000_0x70000000": {
+            "msgRateIn": 1.043149198109741,
+            "msgThroughputIn": 5733.852370747678,
+            "msgRateOut": 1.0166537034685084,
+            "msgThroughputOut": 5728.9958822375675,
+            "consumerCount": 384,
+            "producerCount": 222,
+            "topics": 394,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x98000000_0x9c000000": {
+            "msgRateIn": 0.6666033234258226,
+            "msgThroughputIn": 6322.94844545332,
+            "msgRateOut": 0.6666033227681707,
+            "msgThroughputOut": 6322.948436400146,
+            "consumerCount": 408,
+            "producerCount": 223,
+            "topics": 419,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xe7ffffff_0xebffffff": {
+            "msgRateIn": 0.7832608962893973,
+            "msgThroughputIn": 8935.173345793499,
+            "msgRateOut": 1.7831681901207366,
+            "msgThroughputOut": 9075.660295106782,
+            "consumerCount": 443,
+            "producerCount": 264,
+            "topics": 453,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x90000000_0x94000000": {
+            "msgRateIn": 0.8675452142629424,
+            "msgThroughputIn": 5914.632790412854,
+            "msgRateOut": 0.9332701753008107,
+            "msgThroughputOut": 5932.6739559434955,
+            "consumerCount": 403,
+            "producerCount": 244,
+            "topics": 420,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x08000000_0x0c000000": {
+            "msgRateIn": 8.132570113411477,
+            "msgThroughputIn": 25905.616248585036,
+            "msgRateOut": 8.132570083915626,
+            "msgThroughputOut": 25905.616159614547,
+            "consumerCount": 433,
+            "producerCount": 248,
+            "topics": 447,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x9c000000_0xa0000000": {
+            "msgRateIn": 0.4832885507153099,
+            "msgThroughputIn": 5363.268534439102,
+            "msgRateOut": 0.48328854961717854,
+            "msgThroughputOut": 5363.268523238799,
+            "consumerCount": 399,
+            "producerCount": 215,
+            "topics": 406,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xc7ffffff_0xcbffffff": {
+            "msgRateIn": 0.4666244529570197,
+            "msgThroughputIn": 5625.457592880569,
+            "msgRateOut": 2.8330765502199093,
+            "msgThroughputOut": 5956.760881307276,
+            "consumerCount": 382,
+            "producerCount": 229,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xa0000000_0xa4000000": {
+            "msgRateIn": 0.9332475893682356,
+            "msgThroughputIn": 8308.219967780558,
+            "msgRateOut": 0.9332475878485152,
+            "msgThroughputOut": 8308.219953386146,
+            "consumerCount": 422,
+            "producerCount": 267,
+            "topics": 434,
+            "cacheSize": 94
+        },
+        "my_tenant/my_ns/0xac000000_0xb0000000": {
+            "msgRateIn": 0.6666681941136767,
+            "msgThroughputIn": 4738.109644808122,
+            "msgRateOut": 0.6666681893742094,
+            "msgThroughputOut": 4738.109622930907,
+            "consumerCount": 383,
+            "producerCount": 225,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x58000000_0x5c000000": {
+            "msgRateIn": 0.5166840301964817,
+            "msgThroughputIn": 5982.715626042115,
+            "msgRateOut": 0.5333509836481545,
+            "msgThroughputOut": 5985.665577610433,
+            "consumerCount": 410,
+            "producerCount": 235,
+            "topics": 424,
+            "cacheSize": 0
+        }
+    },
+    "numTopics": 6620,
+    "numBundles": 16,
+    "numConsumers": 6436,
+    "numProducers": 3742,
+    "bundles": [
+        "my_tenant/my_ns/0x54000000_0x58000000",
+        "my_tenant/my_ns/0x84000000_0x88000000",
+        "my_tenant/my_ns/0xcbffffff_0xcfffffff",
+        "my_tenant/my_ns/0x34000000_0x38000000",
+        "my_tenant/my_ns/0x0c000000_0x10000000",
+        "my_tenant/my_ns/0x04000000_0x08000000",
+        "my_tenant/my_ns/0x6c000000_0x70000000",
+        "my_tenant/my_ns/0x98000000_0x9c000000",
+        "my_tenant/my_ns/0xe7ffffff_0xebffffff",
+        "my_tenant/my_ns/0x90000000_0x94000000",
+        "my_tenant/my_ns/0x08000000_0x0c000000",
+        "my_tenant/my_ns/0x9c000000_0xa0000000",
+        "my_tenant/my_ns/0xc7ffffff_0xcbffffff",
+        "my_tenant/my_ns/0xa0000000_0xa4000000",
+        "my_tenant/my_ns/0xac000000_0xb0000000",
+        "my_tenant/my_ns/0x58000000_0x5c000000"
+    ],
+    "lastBundleGains": [],
+    "lastBundleLosses": [],
+    "brokerVersionString": "2.6.1",
+    "protocols": {},
+    "advertisedListeners": {},
+    "bundleStats": {
+        "my_tenant/my_ns/0x54000000_0x58000000": {
+            "msgRateIn": 0.8499214585632846,
+            "msgThroughputIn": 8117.065420382324,
+            "msgRateOut": 2.549763303883956,
+            "msgThroughputOut": 8356.343137487756,
+            "consumerCount": 383,
+            "producerCount": 227,
+            "topics": 395,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x84000000_0x88000000": {
+            "msgRateIn": 0.5499486096878825,
+            "msgThroughputIn": 6931.9022538393365,
+            "msgRateOut": 0.5499486088599822,
+            "msgThroughputOut": 6931.902243033874,
+            "consumerCount": 384,
+            "producerCount": 224,
+            "topics": 391,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xcbffffff_0xcfffffff": {
+            "msgRateIn": 0.7999275012685666,
+            "msgThroughputIn": 6149.241888467495,
+            "msgRateOut": 0.8999184442497687,
+            "msgThroughputOut": 6162.940649399659,
+            "consumerCount": 414,
+            "producerCount": 233,
+            "topics": 427,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x34000000_0x38000000": {
+            "msgRateIn": 0.4666232135013628,
+            "msgThroughputIn": 6557.005786949903,
+            "msgRateOut": 0.4666232123368572,
+            "msgThroughputOut": 6557.005770358994,
+            "consumerCount": 392,
+            "producerCount": 225,
+            "topics": 405,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x0c000000_0x10000000": {
+            "msgRateIn": 0.6999367850012854,
+            "msgThroughputIn": 6652.182280118558,
+            "msgRateOut": 0.9499145313662462,
+            "msgThroughputOut": 6686.679210520737,
+            "consumerCount": 391,
+            "producerCount": 223,
+            "topics": 398,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x04000000_0x08000000": {
+            "msgRateIn": 0.833350197550976,
+            "msgThroughputIn": 8285.920295846701,
+            "msgRateOut": 1.466693426059173,
+            "msgThroughputOut": 179061.62386390418,
+            "consumerCount": 405,
+            "producerCount": 238,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x6c000000_0x70000000": {
+            "msgRateIn": 1.043149198109741,
+            "msgThroughputIn": 5733.852370747678,
+            "msgRateOut": 1.0166537034685084,
+            "msgThroughputOut": 5728.9958822375675,
+            "consumerCount": 384,
+            "producerCount": 222,
+            "topics": 394,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x98000000_0x9c000000": {
+            "msgRateIn": 0.6666033234258226,
+            "msgThroughputIn": 6322.94844545332,
+            "msgRateOut": 0.6666033227681707,
+            "msgThroughputOut": 6322.948436400146,
+            "consumerCount": 408,
+            "producerCount": 223,
+            "topics": 419,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xe7ffffff_0xebffffff": {
+            "msgRateIn": 0.7832608962893973,
+            "msgThroughputIn": 8935.173345793499,
+            "msgRateOut": 1.7831681901207366,
+            "msgThroughputOut": 9075.660295106782,
+            "consumerCount": 443,
+            "producerCount": 264,
+            "topics": 453,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x90000000_0x94000000": {
+            "msgRateIn": 0.8675452142629424,
+            "msgThroughputIn": 5914.632790412854,
+            "msgRateOut": 0.9332701753008107,
+            "msgThroughputOut": 5932.6739559434955,
+            "consumerCount": 403,
+            "producerCount": 244,
+            "topics": 420,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x08000000_0x0c000000": {
+            "msgRateIn": 8.132570113411477,
+            "msgThroughputIn": 25905.616248585036,
+            "msgRateOut": 8.132570083915626,
+            "msgThroughputOut": 25905.616159614547,
+            "consumerCount": 433,
+            "producerCount": 248,
+            "topics": 447,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x9c000000_0xa0000000": {
+            "msgRateIn": 0.4832885507153099,
+            "msgThroughputIn": 5363.268534439102,
+            "msgRateOut": 0.48328854961717854,
+            "msgThroughputOut": 5363.268523238799,
+            "consumerCount": 399,
+            "producerCount": 215,
+            "topics": 406,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xc7ffffff_0xcbffffff": {
+            "msgRateIn": 0.4666244529570197,
+            "msgThroughputIn": 5625.457592880569,
+            "msgRateOut": 2.8330765502199093,
+            "msgThroughputOut": 5956.760881307276,
+            "consumerCount": 382,
+            "producerCount": 229,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xa0000000_0xa4000000": {
+            "msgRateIn": 0.9332475893682356,
+            "msgThroughputIn": 8308.219967780558,
+            "msgRateOut": 0.9332475878485152,
+            "msgThroughputOut": 8308.219953386146,
+            "consumerCount": 422,
+            "producerCount": 267,
+            "topics": 434,
+            "cacheSize": 94
+        },
+        "my_tenant/my_ns/0xac000000_0xb0000000": {
+            "msgRateIn": 0.6666681941136767,
+            "msgThroughputIn": 4738.109644808122,
+            "msgRateOut": 0.6666681893742094,
+            "msgThroughputOut": 4738.109622930907,
+            "consumerCount": 383,
+            "producerCount": 225,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x58000000_0x5c000000": {
+            "msgRateIn": 0.5166840301964817,
+            "msgThroughputIn": 5982.715626042115,
+            "msgRateOut": 0.5333509836481545,
+            "msgThroughputOut": 5985.665577610433,
+            "consumerCount": 410,
+            "producerCount": 235,
+            "topics": 424,
+            "cacheSize": 0
+        }
+    },
+    "maxResourceUsage": 0.34360358119010925,
+    "loadReportType": "LocalBrokerData"
+}

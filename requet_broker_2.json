@@ -1,0 +1,405 @@
+{
+    "webServiceUrl": "http://pulsar-broker-2.pulsar-broker.default.svc.cluster.local:8080",
+    "pulsarServiceUrl": "pulsar://pulsar-broker-2.pulsar-broker.default.svc.cluster.local:6650",
+    "persistentTopicsEnabled": true,
+    "nonPersistentTopicsEnabled": true,
+    "cpu": {
+        "usage": 67.57483621833333,
+        "limit": 300.0
+    },
+    "memory": {
+        "usage": 5292.856704711914,
+        "limit": 86016.0
+    },
+    "directMemory": {
+        "usage": 480.0,
+        "limit": 4096.0
+    },
+    "bandwidthIn": {
+        "usage": 4068.1231770833333,
+        "limit": 1.024E7
+    },
+    "bandwidthOut": {
+        "usage": 35769.92877604167,
+        "limit": 1.024E7
+    },
+    "msgThroughputIn": 215832.83694238708,
+    "msgThroughputOut": 216252.9861994114,
+    "msgRateIn": 15.019610112826511,
+    "msgRateOut": 18.02019536811644,
+    "lastUpdate": 1632748402885,
+    "lastStats": {
+        "my_tenant/my_ns/0x50000000_0x54000000": {
+            "msgRateIn": 0.8334872568359617,
+            "msgThroughputIn": 6384.535233415467,
+            "msgRateOut": 0.8334872591412577,
+            "msgThroughputOut": 6384.5352466257855,
+            "consumerCount": 394,
+            "producerCount": 225,
+            "topics": 407,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x24000000_0x28000000": {
+            "msgRateIn": 0.6167878230715381,
+            "msgThroughputIn": 4924.3331312106075,
+            "msgRateOut": 0.6167878217738073,
+            "msgThroughputOut": 4924.33311303637,
+            "consumerCount": 365,
+            "producerCount": 216,
+            "topics": 378,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xebffffff_0xefffffff": {
+            "msgRateIn": 1.1002177367239074,
+            "msgThroughputIn": 24655.22865000377,
+            "msgRateOut": 1.6003167065300752,
+            "msgThroughputOut": 24725.242548083108,
+            "consumerCount": 403,
+            "producerCount": 224,
+            "topics": 416,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x48000000_0x4c000000": {
+            "msgRateIn": 0.7168075597996363,
+            "msgThroughputIn": 6973.655120500425,
+            "msgRateOut": 0.7168075567142567,
+            "msgThroughputOut": 6973.655085945323,
+            "consumerCount": 371,
+            "producerCount": 216,
+            "topics": 382,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xefffffff_0xf3ffffff": {
+            "msgRateIn": 0.7168009596067919,
+            "msgThroughputIn": 8089.100123026021,
+            "msgRateOut": 0.7334706558670109,
+            "msgThroughputOut": 8091.167089455482,
+            "consumerCount": 412,
+            "producerCount": 242,
+            "topics": 425,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xc0000000_0xc3ffffff": {
+            "msgRateIn": 0.5333994893976303,
+            "msgThroughputIn": 4124.111330366193,
+            "msgRateOut": 0.5500678380628667,
+            "msgThroughputOut": 4125.795107562905,
+            "consumerCount": 393,
+            "producerCount": 230,
+            "topics": 404,
+            "cacheSize": 0
+        },
+        "pulsar/pulsar/pulsar-broker-2.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff": {
+            "msgRateIn": 0.0,
+            "msgThroughputIn": 0.0,
+            "msgRateOut": 0.0,
+            "msgThroughputOut": 0.0,
+            "consumerCount": 0,
+            "producerCount": 0,
+            "topics": 1,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xb4000000_0xb8000000": {
+            "msgRateIn": 0.4500880193065328,
+            "msgThroughputIn": 5169.1275747856635,
+            "msgRateOut": 0.45008801882301036,
+            "msgThroughputOut": 5169.127566581396,
+            "consumerCount": 394,
+            "producerCount": 225,
+            "topics": 407,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xbc000000_0xc0000000": {
+            "msgRateIn": 1.1502249464229175,
+            "msgThroughputIn": 6128.748097280798,
+            "msgRateOut": 3.4506741063375195,
+            "msgThroughputOut": 6451.211051774957,
+            "consumerCount": 386,
+            "producerCount": 228,
+            "topics": 397,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xd3ffffff_0xd7ffffff": {
+            "msgRateIn": 1.216904013066618,
+            "msgThroughputIn": 6595.236592081164,
+            "msgRateOut": 1.2169040188060856,
+            "msgThroughputOut": 6595.236661069834,
+            "consumerCount": 382,
+            "producerCount": 212,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x64000000_0x68000000": {
+            "msgRateIn": 0.8835236015644998,
+            "msgThroughputIn": 5505.625965661036,
+            "msgRateOut": 0.883523592680965,
+            "msgThroughputOut": 5505.62590996564,
+            "consumerCount": 401,
+            "producerCount": 222,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x5c000000_0x60000000": {
+            "msgRateIn": 0.8334966215958922,
+            "msgThroughputIn": 6496.2883540786115,
+            "msgRateOut": 0.8334966207152703,
+            "msgThroughputOut": 6496.288337710938,
+            "consumerCount": 391,
+            "producerCount": 220,
+            "topics": 405,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xe3ffffff_0xe7ffffff": {
+            "msgRateIn": 2.700515383137052,
+            "msgThroughputIn": 103066.1814051696,
+            "msgRateOut": 2.867214467166903,
+            "msgThroughputOut": 103090.10315495402,
+            "consumerCount": 403,
+            "producerCount": 234,
+            "topics": 413,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x10000000_0x14000000": {
+            "msgRateIn": 0.933547403587521,
+            "msgThroughputIn": 7175.713230065118,
+            "msgRateOut": 0.9335473963952978,
+            "msgThroughputOut": 7175.7131550636595,
+            "consumerCount": 404,
+            "producerCount": 232,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xb8000000_0xbc000000": {
+            "msgRateIn": 0.9168478604009928,
+            "msgThroughputIn": 8602.85009970855,
+            "msgRateOut": 0.9168478594647891,
+            "msgThroughputOut": 8602.85007461816,
+            "consumerCount": 433,
+            "producerCount": 243,
+            "topics": 446,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x7c000000_0x80000000": {
+            "msgRateIn": 0.7668171845744643,
+            "msgThroughputIn": 6522.2294164986,
+            "msgRateOut": 0.7668171827740359,
+            "msgThroughputOut": 6522.229401219419,
+            "consumerCount": 385,
+            "producerCount": 217,
+            "topics": 397,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xa4000000_0xa8000000": {
+            "msgRateIn": 0.6501442537345562,
+            "msgThroughputIn": 5419.872618535411,
+            "msgRateOut": 0.6501442668632896,
+            "msgThroughputOut": 5419.872695744383,
+            "consumerCount": 381,
+            "producerCount": 224,
+            "topics": 390,
+            "cacheSize": 0
+        }
+    },
+    "numTopics": 6494,
+    "numBundles": 17,
+    "numConsumers": 6298,
+    "numProducers": 3610,
+    "bundles": [
+        "my_tenant/my_ns/0x50000000_0x54000000",
+        "my_tenant/my_ns/0x24000000_0x28000000",
+        "my_tenant/my_ns/0xebffffff_0xefffffff",
+        "my_tenant/my_ns/0x48000000_0x4c000000",
+        "my_tenant/my_ns/0xefffffff_0xf3ffffff",
+        "my_tenant/my_ns/0xc0000000_0xc3ffffff",
+        "pulsar/pulsar/pulsar-broker-2.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff",
+        "my_tenant/my_ns/0xb4000000_0xb8000000",
+        "my_tenant/my_ns/0xbc000000_0xc0000000",
+        "my_tenant/my_ns/0xd3ffffff_0xd7ffffff",
+        "my_tenant/my_ns/0x64000000_0x68000000",
+        "my_tenant/my_ns/0x5c000000_0x60000000",
+        "my_tenant/my_ns/0xe3ffffff_0xe7ffffff",
+        "my_tenant/my_ns/0x10000000_0x14000000",
+        "my_tenant/my_ns/0xb8000000_0xbc000000",
+        "my_tenant/my_ns/0x7c000000_0x80000000",
+        "my_tenant/my_ns/0xa4000000_0xa8000000"
+    ],
+    "lastBundleGains": [],
+    "lastBundleLosses": [],
+    "brokerVersionString": "2.6.1",
+    "protocols": {},
+    "advertisedListeners": {},
+    "bundleStats": {
+        "my_tenant/my_ns/0x50000000_0x54000000": {
+            "msgRateIn": 0.8334872568359617,
+            "msgThroughputIn": 6384.535233415467,
+            "msgRateOut": 0.8334872591412577,
+            "msgThroughputOut": 6384.5352466257855,
+            "consumerCount": 394,
+            "producerCount": 225,
+            "topics": 407,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x24000000_0x28000000": {
+            "msgRateIn": 0.6167878230715381,
+            "msgThroughputIn": 4924.3331312106075,
+            "msgRateOut": 0.6167878217738073,
+            "msgThroughputOut": 4924.33311303637,
+            "consumerCount": 365,
+            "producerCount": 216,
+            "topics": 378,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xebffffff_0xefffffff": {
+            "msgRateIn": 1.1002177367239074,
+            "msgThroughputIn": 24655.22865000377,
+            "msgRateOut": 1.6003167065300752,
+            "msgThroughputOut": 24725.242548083108,
+            "consumerCount": 403,
+            "producerCount": 224,
+            "topics": 416,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x48000000_0x4c000000": {
+            "msgRateIn": 0.7168075597996363,
+            "msgThroughputIn": 6973.655120500425,
+            "msgRateOut": 0.7168075567142567,
+            "msgThroughputOut": 6973.655085945323,
+            "consumerCount": 371,
+            "producerCount": 216,
+            "topics": 382,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xefffffff_0xf3ffffff": {
+            "msgRateIn": 0.7168009596067919,
+            "msgThroughputIn": 8089.100123026021,
+            "msgRateOut": 0.7334706558670109,
+            "msgThroughputOut": 8091.167089455482,
+            "consumerCount": 412,
+            "producerCount": 242,
+            "topics": 425,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xc0000000_0xc3ffffff": {
+            "msgRateIn": 0.5333994893976303,
+            "msgThroughputIn": 4124.111330366193,
+            "msgRateOut": 0.5500678380628667,
+            "msgThroughputOut": 4125.795107562905,
+            "consumerCount": 393,
+            "producerCount": 230,
+            "topics": 404,
+            "cacheSize": 0
+        },
+        "pulsar/pulsar/pulsar-broker-2.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff": {
+            "msgRateIn": 0.0,
+            "msgThroughputIn": 0.0,
+            "msgRateOut": 0.0,
+            "msgThroughputOut": 0.0,
+            "consumerCount": 0,
+            "producerCount": 0,
+            "topics": 1,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xb4000000_0xb8000000": {
+            "msgRateIn": 0.4500880193065328,
+            "msgThroughputIn": 5169.1275747856635,
+            "msgRateOut": 0.45008801882301036,
+            "msgThroughputOut": 5169.127566581396,
+            "consumerCount": 394,
+            "producerCount": 225,
+            "topics": 407,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xbc000000_0xc0000000": {
+            "msgRateIn": 1.1502249464229175,
+            "msgThroughputIn": 6128.748097280798,
+            "msgRateOut": 3.4506741063375195,
+            "msgThroughputOut": 6451.211051774957,
+            "consumerCount": 386,
+            "producerCount": 228,
+            "topics": 397,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xd3ffffff_0xd7ffffff": {
+            "msgRateIn": 1.216904013066618,
+            "msgThroughputIn": 6595.236592081164,
+            "msgRateOut": 1.2169040188060856,
+            "msgThroughputOut": 6595.236661069834,
+            "consumerCount": 382,
+            "producerCount": 212,
+            "topics": 396,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x64000000_0x68000000": {
+            "msgRateIn": 0.8835236015644998,
+            "msgThroughputIn": 5505.625965661036,
+            "msgRateOut": 0.883523592680965,
+            "msgThroughputOut": 5505.62590996564,
+            "consumerCount": 401,
+            "producerCount": 222,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x5c000000_0x60000000": {
+            "msgRateIn": 0.8334966215958922,
+            "msgThroughputIn": 6496.2883540786115,
+            "msgRateOut": 0.8334966207152703,
+            "msgThroughputOut": 6496.288337710938,
+            "consumerCount": 391,
+            "producerCount": 220,
+            "topics": 405,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xe3ffffff_0xe7ffffff": {
+            "msgRateIn": 2.700515383137052,
+            "msgThroughputIn": 103066.1814051696,
+            "msgRateOut": 2.867214467166903,
+            "msgThroughputOut": 103090.10315495402,
+            "consumerCount": 403,
+            "producerCount": 234,
+            "topics": 413,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x10000000_0x14000000": {
+            "msgRateIn": 0.933547403587521,
+            "msgThroughputIn": 7175.713230065118,
+            "msgRateOut": 0.9335473963952978,
+            "msgThroughputOut": 7175.7131550636595,
+            "consumerCount": 404,
+            "producerCount": 232,
+            "topics": 415,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xb8000000_0xbc000000": {
+            "msgRateIn": 0.9168478604009928,
+            "msgThroughputIn": 8602.85009970855,
+            "msgRateOut": 0.9168478594647891,
+            "msgThroughputOut": 8602.85007461816,
+            "consumerCount": 433,
+            "producerCount": 243,
+            "topics": 446,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0x7c000000_0x80000000": {
+            "msgRateIn": 0.7668171845744643,
+            "msgThroughputIn": 6522.2294164986,
+            "msgRateOut": 0.7668171827740359,
+            "msgThroughputOut": 6522.229401219419,
+            "consumerCount": 385,
+            "producerCount": 217,
+            "topics": 397,
+            "cacheSize": 0
+        },
+        "my_tenant/my_ns/0xa4000000_0xa8000000": {
+            "msgRateIn": 0.6501442537345562,
+            "msgThroughputIn": 5419.872618535411,
+            "msgRateOut": 0.6501442668632896,
+            "msgThroughputOut": 5419.872695744383,
+            "consumerCount": 381,
+            "producerCount": 224,
+            "topics": 390,
+            "cacheSize": 0
+        }
+    },
+    "maxResourceUsage": 0.22524946928024292,
+    "loadReportType": "LocalBrokerData"
+}

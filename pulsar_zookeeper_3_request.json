@@ -1,0 +1,387 @@
+{
+	"webServiceUrl": "http://pulsar-broker-3.pulsar-broker.default.svc.cluster.local:8080",
+	"pulsarServiceUrl": "pulsar://pulsar-broker-3.pulsar-broker.default.svc.cluster.local:6650",
+	"persistentTopicsEnabled": true,
+	"nonPersistentTopicsEnabled": true,
+	"cpu": {
+		"usage": 73.15708243195947,
+		"limit": 300.0
+	},
+	"memory": {
+		"usage": 7906.427459716797,
+		"limit": 86016.0
+	},
+	"directMemory": {
+		"usage": 480.0,
+		"limit": 4096.0
+	},
+	"bandwidthIn": {
+		"usage": 3192.82452063299,
+		"limit": 1.024E7
+	},
+	"bandwidthOut": {
+		"usage": 48569.86745533408,
+		"limit": 1.024E7
+	},
+	"msgThroughputIn": 97249.26169665145,
+	"msgThroughputOut": 97280.94088998715,
+	"msgRateIn": 10.648884397113195,
+	"msgRateOut": 10.882189771975328,
+	"lastUpdate": 1632747803915,
+	"lastStats": {
+		"my_tenant/my_ns/0xb0000000_0xb4000000": {
+			"msgRateIn": 0.8998770891537179,
+			"msgThroughputIn": 7111.42961176957,
+			"msgRateOut": 0.8998770906027665,
+			"msgThroughputOut": 7111.429597488635,
+			"consumerCount": 410,
+			"producerCount": 238,
+			"topics": 421,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x3c000000_0x40000000": {
+			"msgRateIn": 0.5332672627160199,
+			"msgThroughputIn": 5380.963847346443,
+			"msgRateOut": 0.5332672612219452,
+			"msgThroughputOut": 5380.963830350629,
+			"consumerCount": 384,
+			"producerCount": 219,
+			"topics": 395,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x00000000_0x04000000": {
+			"msgRateIn": 0.9332283780671528,
+			"msgThroughputIn": 7575.616524594558,
+			"msgRateOut": 0.9332283767405039,
+			"msgThroughputOut": 7575.616504200448,
+			"consumerCount": 420,
+			"producerCount": 236,
+			"topics": 436,
+			"cacheSize": 0
+		},
+		"pulsar/pulsar/pulsar-broker-3.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff": {
+			"msgRateIn": 0.0,
+			"msgThroughputIn": 0.0,
+			"msgRateOut": 0.0,
+			"msgThroughputOut": 0.0,
+			"consumerCount": 0,
+			"producerCount": 0,
+			"topics": 1,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x2c000000_0x30000000": {
+			"msgRateIn": 0.5666463207301945,
+			"msgThroughputIn": 3886.7890021328553,
+			"msgRateOut": 0.5666463120711733,
+			"msgThroughputOut": 3886.7889207261615,
+			"consumerCount": 369,
+			"producerCount": 207,
+			"topics": 378,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xdbffffff_0xdfffffff": {
+			"msgRateIn": 0.7665802761936317,
+			"msgThroughputIn": 4533.605457134241,
+			"msgRateOut": 0.7665802745062339,
+			"msgThroughputOut": 4533.605439155933,
+			"consumerCount": 393,
+			"producerCount": 235,
+			"topics": 408,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x44000000_0x48000000": {
+			"msgRateIn": 0.34994812776650963,
+			"msgThroughputIn": 4019.454792994519,
+			"msgRateOut": 0.34994813282755316,
+			"msgThroughputOut": 4019.4548728542477,
+			"consumerCount": 423,
+			"producerCount": 232,
+			"topics": 437,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xd7ffffff_0xdbffffff": {
+			"msgRateIn": 0.6499987775038513,
+			"msgThroughputIn": 7100.279169946577,
+			"msgRateOut": 0.666665498659176,
+			"msgThroughputOut": 7101.99572976194,
+			"consumerCount": 408,
+			"producerCount": 241,
+			"topics": 421,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x38000000_0x3c000000": {
+			"msgRateIn": 0.516584215622268,
+			"msgThroughputIn": 6094.261910986881,
+			"msgRateOut": 0.5165842147347696,
+			"msgThroughputOut": 6094.261898819559,
+			"consumerCount": 424,
+			"producerCount": 253,
+			"topics": 435,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x14000000_0x18000000": {
+			"msgRateIn": 0.6165884986749948,
+			"msgThroughputIn": 4981.241947547531,
+			"msgRateOut": 0.6165884866868466,
+			"msgThroughputOut": 4981.241839257458,
+			"consumerCount": 421,
+			"producerCount": 234,
+			"topics": 430,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xf7ffffff_0xfbffffff": {
+			"msgRateIn": 0.5166164463354133,
+			"msgThroughputIn": 5244.623519492225,
+			"msgRateOut": 0.5166164464903827,
+			"msgThroughputOut": 5244.623516214768,
+			"consumerCount": 396,
+			"producerCount": 235,
+			"topics": 400,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x74000000_0x78000000": {
+			"msgRateIn": 0.7332615050959562,
+			"msgThroughputIn": 7783.62067968897,
+			"msgRateOut": 0.7332615054017301,
+			"msgThroughputOut": 7783.620668791484,
+			"consumerCount": 397,
+			"producerCount": 229,
+			"topics": 407,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x70000000_0x74000000": {
+			"msgRateIn": 0.7832557965182856,
+			"msgThroughputIn": 8926.948189731875,
+			"msgRateOut": 0.7832558023337761,
+			"msgThroughputOut": 8926.948268084994,
+			"consumerCount": 401,
+			"producerCount": 245,
+			"topics": 405,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xf3ffffff_0xf7ffffff": {
+			"msgRateIn": 0.5166115706063215,
+			"msgThroughputIn": 5945.033565335943,
+			"msgRateOut": 0.5166115696570804,
+			"msgThroughputOut": 5945.033555017155,
+			"consumerCount": 394,
+			"producerCount": 236,
+			"topics": 405,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x20000000_0x24000000": {
+			"msgRateIn": 0.49993598223208113,
+			"msgThroughputIn": 5841.486157821361,
+			"msgRateOut": 0.6999098972168841,
+			"msgThroughputOut": 5869.682481654768,
+			"consumerCount": 441,
+			"producerCount": 250,
+			"topics": 452,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xc3ffffff_0xc7ffffff": {
+			"msgRateIn": 1.1665535277323258,
+			"msgThroughputIn": 6668.337154202933,
+			"msgRateOut": 1.1665535244113057,
+			"msgThroughputOut": 6668.337148317628,
+			"consumerCount": 379,
+			"producerCount": 215,
+			"topics": 390,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xcfffffff_0xd3ffffff": {
+			"msgRateIn": 0.5999306221644716,
+			"msgThroughputIn": 6155.570165924976,
+			"msgRateOut": 0.6165953784132009,
+			"msgThroughputOut": 6157.336619291337,
+			"consumerCount": 408,
+			"producerCount": 221,
+			"topics": 422,
+			"cacheSize": 0
+		}
+	},
+	"numTopics": 6643,
+	"numBundles": 17,
+	"numConsumers": 6468,
+	"numProducers": 3726,
+	"bundles": ["my_tenant/my_ns/0xb0000000_0xb4000000", "my_tenant/my_ns/0x3c000000_0x40000000", "my_tenant/my_ns/0x00000000_0x04000000", "pulsar/pulsar/pulsar-broker-3.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff", "my_tenant/my_ns/0x2c000000_0x30000000", "my_tenant/my_ns/0xdbffffff_0xdfffffff", "my_tenant/my_ns/0x44000000_0x48000000", "my_tenant/my_ns/0xd7ffffff_0xdbffffff", "my_tenant/my_ns/0x38000000_0x3c000000", "my_tenant/my_ns/0x14000000_0x18000000", "my_tenant/my_ns/0xf7ffffff_0xfbffffff", "my_tenant/my_ns/0x74000000_0x78000000", "my_tenant/my_ns/0x70000000_0x74000000", "my_tenant/my_ns/0xf3ffffff_0xf7ffffff", "my_tenant/my_ns/0x20000000_0x24000000", "my_tenant/my_ns/0xc3ffffff_0xc7ffffff", "my_tenant/my_ns/0xcfffffff_0xd3ffffff"],
+	"lastBundleGains": [],
+	"lastBundleLosses": [],
+	"brokerVersionString": "2.6.1",
+	"protocols": {},
+	"advertisedListeners": {},
+	"bundleStats": {
+		"my_tenant/my_ns/0xb0000000_0xb4000000": {
+			"msgRateIn": 0.8998770891537179,
+			"msgThroughputIn": 7111.42961176957,
+			"msgRateOut": 0.8998770906027665,
+			"msgThroughputOut": 7111.429597488635,
+			"consumerCount": 410,
+			"producerCount": 238,
+			"topics": 421,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x3c000000_0x40000000": {
+			"msgRateIn": 0.5332672627160199,
+			"msgThroughputIn": 5380.963847346443,
+			"msgRateOut": 0.5332672612219452,
+			"msgThroughputOut": 5380.963830350629,
+			"consumerCount": 384,
+			"producerCount": 219,
+			"topics": 395,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x00000000_0x04000000": {
+			"msgRateIn": 0.9332283780671528,
+			"msgThroughputIn": 7575.616524594558,
+			"msgRateOut": 0.9332283767405039,
+			"msgThroughputOut": 7575.616504200448,
+			"consumerCount": 420,
+			"producerCount": 236,
+			"topics": 436,
+			"cacheSize": 0
+		},
+		"pulsar/pulsar/pulsar-broker-3.pulsar-broker.default.svc.cluster.local:8080/0x00000000_0xffffffff": {
+			"msgRateIn": 0.0,
+			"msgThroughputIn": 0.0,
+			"msgRateOut": 0.0,
+			"msgThroughputOut": 0.0,
+			"consumerCount": 0,
+			"producerCount": 0,
+			"topics": 1,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x2c000000_0x30000000": {
+			"msgRateIn": 0.5666463207301945,
+			"msgThroughputIn": 3886.7890021328553,
+			"msgRateOut": 0.5666463120711733,
+			"msgThroughputOut": 3886.7889207261615,
+			"consumerCount": 369,
+			"producerCount": 207,
+			"topics": 378,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xdbffffff_0xdfffffff": {
+			"msgRateIn": 0.7665802761936317,
+			"msgThroughputIn": 4533.605457134241,
+			"msgRateOut": 0.7665802745062339,
+			"msgThroughputOut": 4533.605439155933,
+			"consumerCount": 393,
+			"producerCount": 235,
+			"topics": 408,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x44000000_0x48000000": {
+			"msgRateIn": 0.34994812776650963,
+			"msgThroughputIn": 4019.454792994519,
+			"msgRateOut": 0.34994813282755316,
+			"msgThroughputOut": 4019.4548728542477,
+			"consumerCount": 423,
+			"producerCount": 232,
+			"topics": 437,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xd7ffffff_0xdbffffff": {
+			"msgRateIn": 0.6499987775038513,
+			"msgThroughputIn": 7100.279169946577,
+			"msgRateOut": 0.666665498659176,
+			"msgThroughputOut": 7101.99572976194,
+			"consumerCount": 408,
+			"producerCount": 241,
+			"topics": 421,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x38000000_0x3c000000": {
+			"msgRateIn": 0.516584215622268,
+			"msgThroughputIn": 6094.261910986881,
+			"msgRateOut": 0.5165842147347696,
+			"msgThroughputOut": 6094.261898819559,
+			"consumerCount": 424,
+			"producerCount": 253,
+			"topics": 435,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x14000000_0x18000000": {
+			"msgRateIn": 0.6165884986749948,
+			"msgThroughputIn": 4981.241947547531,
+			"msgRateOut": 0.6165884866868466,
+			"msgThroughputOut": 4981.241839257458,
+			"consumerCount": 421,
+			"producerCount": 234,
+			"topics": 430,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xf7ffffff_0xfbffffff": {
+			"msgRateIn": 0.5166164463354133,
+			"msgThroughputIn": 5244.623519492225,
+			"msgRateOut": 0.5166164464903827,
+			"msgThroughputOut": 5244.623516214768,
+			"consumerCount": 396,
+			"producerCount": 235,
+			"topics": 400,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x74000000_0x78000000": {
+			"msgRateIn": 0.7332615050959562,
+			"msgThroughputIn": 7783.62067968897,
+			"msgRateOut": 0.7332615054017301,
+			"msgThroughputOut": 7783.620668791484,
+			"consumerCount": 397,
+			"producerCount": 229,
+			"topics": 407,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x70000000_0x74000000": {
+			"msgRateIn": 0.7832557965182856,
+			"msgThroughputIn": 8926.948189731875,
+			"msgRateOut": 0.7832558023337761,
+			"msgThroughputOut": 8926.948268084994,
+			"consumerCount": 401,
+			"producerCount": 245,
+			"topics": 405,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xf3ffffff_0xf7ffffff": {
+			"msgRateIn": 0.5166115706063215,
+			"msgThroughputIn": 5945.033565335943,
+			"msgRateOut": 0.5166115696570804,
+			"msgThroughputOut": 5945.033555017155,
+			"consumerCount": 394,
+			"producerCount": 236,
+			"topics": 405,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0x20000000_0x24000000": {
+			"msgRateIn": 0.49993598223208113,
+			"msgThroughputIn": 5841.486157821361,
+			"msgRateOut": 0.6999098972168841,
+			"msgThroughputOut": 5869.682481654768,
+			"consumerCount": 441,
+			"producerCount": 250,
+			"topics": 452,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xc3ffffff_0xc7ffffff": {
+			"msgRateIn": 1.1665535277323258,
+			"msgThroughputIn": 6668.337154202933,
+			"msgRateOut": 1.1665535244113057,
+			"msgThroughputOut": 6668.337148317628,
+			"consumerCount": 379,
+			"producerCount": 215,
+			"topics": 390,
+			"cacheSize": 0
+		},
+		"my_tenant/my_ns/0xcfffffff_0xd3ffffff": {
+			"msgRateIn": 0.5999306221644716,
+			"msgThroughputIn": 6155.570165924976,
+			"msgRateOut": 0.6165953784132009,
+			"msgThroughputOut": 6157.336619291337,
+			"consumerCount": 408,
+			"producerCount": 221,
+			"topics": 422,
+			"cacheSize": 0
+		}
+	},
+	"loadReportType": "LocalBrokerData",
+	"maxResourceUsage": 0.24385695159435272
+}
